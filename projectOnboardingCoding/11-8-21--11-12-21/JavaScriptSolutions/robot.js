@@ -17,16 +17,21 @@ let north = 20; let east = 30; let south = 10; let west = 40;
 let north1 = 0; let east1 = 0;
 let north2 = -10; let east2 = 20; let south2 = 10;
 
+
+
 console.log(trackRobot(north, east, south, west));
 console.log(trackRobot(north1, east1));
 console.log(Point.Position(trackRobot(north2, east2, south2)));
+console.log(trackRobot(30, 50, 15));
+console.log(trackRobot())
+console.log(trackRobot(10, 10, 10, 10, 20))
 
 
 
 
 //define the trackrobot function
 
-function trackRobot(north, east, south = 0, west = 0) {
+function trackRobot(north = 0, east = 0, south = 0, west = 0) {
 
   let latitude = east - west;
   let longitude = north - south;

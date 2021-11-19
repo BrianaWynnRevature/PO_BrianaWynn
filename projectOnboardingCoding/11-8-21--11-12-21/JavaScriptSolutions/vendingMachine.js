@@ -29,6 +29,7 @@ printReceipt(vendingMachine(selected, payment, products));
 printReceipt(vendingMachine(selected1, payment1, products));
 printReceipt(vendingMachine(selected2, payment2, products));
 printReceipt(vendingMachine(selected4, payment4, products));
+printReceipt(vendingMachine(0, 200, products));
 
 //print the receipt
 function printReceipt(receipt) {

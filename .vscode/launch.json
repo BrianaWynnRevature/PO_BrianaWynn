@@ -1,0 +1,28 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch ConsecutiveNumbers",
+      "request": "launch",
+      "mainClass": "ConsecutiveNumbers",
+      "projectName": "projectOnboarding_d9afd20e"
+    },
+    {
+      "name": ".NET Core Launch (console)",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/projectOnboardingCoding/bin/Debug/net5.0/projectOnboardingCoding.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/projectOnboardingCoding",
+      "console": "internalConsole",
+      "stopAtEntry": false
+    },
+    {
+      "name": ".NET Core Attach",
+      "type": "coreclr",
+      "request": "attach"
+    }
+  ]
+}
